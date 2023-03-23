@@ -115,7 +115,6 @@ function checkAnswer(answer) {
       messageElement.innerText = `${randomMessage} The correct answer is ${currentQuestion.correctAnswer}.`;
       messageElement.style.color = "#FF0000";
       animateMessage("incorrect");
-      messageElement.classList.add("incorrect");
     }
   
     generateQuestion(currentOperation);

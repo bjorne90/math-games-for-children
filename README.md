@@ -24,24 +24,25 @@ providing an enjoyable learning experience for kids.
 ## Features ✨
 - **Colorful and  fun graphics:** Bright colors, intresting animations, and engaging design to grab children's 
 attention and make the game visually appealing.
-- **User-friendly interface:**
-- **Multiple game modes:**
-- **Personalized learning:**
-- **Positive reinforcement:**
+- **User-friendly interface:** The game is easy to navigate, with clearly labeled buttons and intutive controls suitable for
+children.
+- **Multiple game modes:** Children can choose from four different arithmetic operations to practice (addition, subtraction, multiplication, or division).
+- **Personalized learning:** The game adapts to the child's skill level and adjusts the difficulty of the questions accordingly.
+- **Positive reinforcement:** The game offers positive feedback and rewards for correct answers, encouraging children to keep playing and learning.
 
 ## How to Play 🎮
-1.
-2.
-3.
-4.
-5.
-6.
-7.
+1. When the game starts, children can select the type of math operation they want to practice (addition, subtraction, multiplication, or division).
+2. Once they select the operation, the game presents a series of questions that gradually increase in difficulty.
+3. Children can answer the questions by selecting the correct answer from a set of multiple-choice options.
+4. For each correct answer, the child receives points and positive feedback, such as a congratulatory message or a star.
+5. If the child answers incorrectly, the game provides feedback and the correct answer so they can learn from their mistake.
+6. As children progress through the game, the questions become progressively more challenging, helping them build their skills and confidence in math.
 
 ![Fun Math Game Screenshot 2](https://link-to-another-screenshot-of-game.png)
 
 ## Responsiveness 📱
 
+The game is fully responsive and works well on different devices, such as phones and tablets. The layout and font sizes adapt to various screen resolutions to provide a seamless experience for children.
 
 ## Installation 💾
 

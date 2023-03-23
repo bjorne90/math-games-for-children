@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/bjorne90/project1-drones">
+  <a href="https://bjorne90.github.io/math-games-for-children/index.html">
     <img src="media/logo.png" alt="Logo" width="250" height="100">
   </a>
 
@@ -9,7 +9,7 @@
     My JavaScript project for Code Institute. A fun math game for kids.
     <br />
     <br />
-    <a href="https://bjorne90.github.io/project1-drones/index.html">View Demo Website</a>
+    <a href="https://bjorne90.github.io/math-games-for-children/index.html">View Demo Website</a>
   </p>
 </div>
 

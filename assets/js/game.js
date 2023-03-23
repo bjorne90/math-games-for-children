@@ -95,6 +95,7 @@ function checkAnswer(answer) {
       const randomMessage =
         correctMessages[Math.floor(Math.random() * correctMessages.length)];
       messageElement.innerText = randomMessage;
+      messageElement.style.color = "#008000";
       score++;
       updateScore();
       checkForWin();
@@ -112,6 +113,7 @@ function checkAnswer(answer) {
       const randomMessage =
         incorrectMessages[Math.floor(Math.random() * incorrectMessages.length)];
       messageElement.innerText = `${randomMessage} The correct answer is ${currentQuestion.correctAnswer}.`;
+      messageElement.style.color = "#FF0000";
       animateMessage("incorrect");
       messageElement.classList.add("incorrect");
     }

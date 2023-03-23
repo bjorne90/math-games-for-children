@@ -25,7 +25,21 @@
                 <button class="add" onclick="startGame ('multiply')"><i class="fas fa-times"></i><br>Multiplication</button>
                 <button class="add" onclick="startGame ('divide')"><i class="fas fa-divide"></i><br>Division</button>
             </div>
+            <div class="question" id="question"></div>
+            <div class="options" id="options"></div>
+            <div class="score-board">
+                <p>Score: <span id="score">0</span></p>
+            </div>
+            <div class="message" id="message"></div>
+            <div id="progress-container">
+                <div id="progress-bar"></div>
+            </div>
+            <button class="restart-button" onclick="restartGame()">Restart Game</button>
         </div>
     </div>
+    <footer class="footer">
+        <p>Created with <span class="heart">❤️</span> by <a href="https://github.com/bjorne90" target="_blank">Björn Centio 2023</a></p>
+    </footer>
+    <script src="assets/js/game.js"></script>
 </body>
 </html>

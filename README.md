@@ -92,6 +92,8 @@ This project is licensed under the MIT License. See the [LICENSE](license) file 
 
 * The idea and inspiration came from my daughter Felicia 🦋
 
+* Icons from [Font Awesome](https://fontawesome.com/)
+
 ## Contributing 💽
 
 Contributions are welcome! If you would like to contribute to this project, please feel free to fork the repository, make your changes, and submit a pull request.

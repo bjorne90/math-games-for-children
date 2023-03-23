@@ -65,3 +65,70 @@ h1 {
     font-size: 18px;
     transition: transform 0.2s;
 }
+
+.operation-buttons button:hover {
+    background-color: #4CAF50;
+}
+
+.operation-buttons button.add {
+    background-color: #4CAF50;
+}
+
+.operation-buttons button.subtract {
+    background-color: #2196F3;
+}
+
+.operation-buttons button.multiply {
+    background-color: #FF5722;
+}
+
+.operation-buttons button.divide {
+    background-color: #9C27B0;
+}
+
+.question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.options button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 18px;
+    transition: transform 0.2s background-color 0.2s;
+}
+
+.options button:hover {
+    transform: scale(1.1);
+    background-color: #eeeeee;
+}
+
+.score-board {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.message {
+    font-size: 18px;
+    color: #008000;
+    min-height: 24px;
+    margin-top: 10px;
+}
+
+.restart-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    transition: transform 0.2s;
+}
+

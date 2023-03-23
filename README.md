@@ -57,10 +57,38 @@ attention and make the game visually appealing.
 
 ## Bugs & Fixes 🪲
 
+* Sometimes the same question is repeated one after the other **(Bug)**
+* Sometimes the questions are too difficult, probably a problem in the code. **(Bug)**
+* No other bugs where found while testing the game.
+
+## Testing 📝
+
+* The website has been tested in several different browsers such as Chrome, Safari and Firefox.
+* I have tested that the page is responsive via Chrome devtools and via an Ipad.
+* I have checked that the text is readable, that it is accessible to users.
+* I have tested the form several times that it really works as intended and that all fields must be filled in.
+
+![Lighthouse score of the website](https://link-to-another-screenshot-of-game.png)
+
+## Features Left to Implement 🖥️
+
+- Timed Challenges.
+- Progressively harder levels.
+- More math challenges for older kids, like equation.
+- Language selector so more people can use the site
+
 ## License 📄
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Credit 💖
 
+* Created with ❤️ by [Björn Centio](https://github.com/bjorne90)
+
+* Logo and Favicon is downloaded from [FreePik](https://www.freepik.com/free-vector/hand-drawn-cartoon-mathematical-symbols_11521131.htm#query=math%20logo&position=44&from_view=keyword&track=ais)
+
+* The idea and inspiration came from my daughter Felicia 🦋
+
 ## Contributing 💽
+
+Contributions are welcome! If you would like to contribute to this project, please feel free to fork the repository, make your changes, and submit a pull request.

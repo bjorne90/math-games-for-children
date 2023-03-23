@@ -26,7 +26,11 @@ function generateQuestion() {
             correctAnswer = num1 * num2;
             break;
         case "divide":
-            correctAnswer = parseFloat((num1 / num2).toFixed(2));
+            while (num1 % num2 !== 0) {
+                num1 = Math.floor(Math.random() * 10) + 1;
+                num2 = Math.floor(Math.random() * 10) + 1;
+            }
+            correctAnswer = num1 / num2;
             break;
     }
 

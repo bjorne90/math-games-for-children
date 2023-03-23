@@ -108,6 +108,7 @@ function checkAnswer(answer) {
         incorrectMessages[Math.floor(Math.random() * incorrectMessages.length)];
       messageElement.innerText = `${randomMessage} The correct answer is ${currentQuestion.correctAnswer}.`;
       animateMessage("incorrect");
+      messageElement.classList.add("incorrect");
     }
   
     generateQuestion(currentOperation);

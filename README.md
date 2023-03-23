@@ -58,8 +58,9 @@ The game is fully responsive and works well on different devices, such as phones
 
 ## Bugs & Fixes 🪲
 
-* Sometimes the same question is repeated one after the other **(Bug)**
-* Sometimes the questions are too difficult, probably a problem in the code. **(Bug)**
+* Sometimes the same question is repeated one after the other **(Bug not solved)**
+* Sometimes the questions are too difficult, probably a problem in the code. **(Bug not solved)**
+* When the user is getting wrong answer the message should stay red, but turns back to green **(Bug not solved)**
 * No other bugs where found while testing the game.
 
 ## Testing 📝

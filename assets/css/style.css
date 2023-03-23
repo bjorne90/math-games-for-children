@@ -55,6 +55,13 @@ h1 {
   margin-top: -15px;
 }
 
+h1 i {
+  font-size: 1.2em;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
 h2 {
   font-family: 'Bangers', cursive;
   font-size: 36px;

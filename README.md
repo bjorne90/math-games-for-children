@@ -76,6 +76,7 @@ attention and make the game visually appealing.
 - Progressively harder levels.
 - More math challenges for older kids, like equation.
 - Language selector so more people can use the site
+- Posibility to show how to calculate
 
 ## License 📄
 

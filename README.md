@@ -43,24 +43,24 @@ attention and make the game visually appealing.
 ## Responsiveness 📱
 
 
-## Installation
+## Installation 💾
 
 1. Clone the repository or download the source code.
 2. Open the `index.html` file in your web browser.
 3. Start playing and have fun!
 
-## Technologies Used
+## Technologies Used ⌨️
 
 - HTML
 - CSS
 - JavaScript
 
-## Bugs & Fixes
+## Bugs & Fixes 🪲
 
-## License
+## License 📄
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Credit 💖
 
-## Contributing
+## Contributing 💽

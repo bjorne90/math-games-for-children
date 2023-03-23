@@ -1,10 +1,8 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Fun Math Game for Kids 🚀
 
-Welcome USER_NAME,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+A fun and interactive math game designed for children to learn and practice addition, subtraction, multiplication, and division.
+The game features a colorful design, engaging animations, and a intuitive interface that adapts to diffrent screen sizes,
+providing an enjoyable learning experience for kids.
 
 ## Gitpod Reminders
 

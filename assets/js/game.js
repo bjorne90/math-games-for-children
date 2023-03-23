@@ -111,3 +111,63 @@ function checkAnswer (answer) {
 
     generateQuestion(currentOperation);
 }
+
+// Updates the progress bar based on the player's score
+function updateProgressBar() {
+    const progressBar = document.getElementById("progress-bar");
+    const progressPercentage = (score / 15) * 100;
+    progressBar.style.width = progressPercentage + "%";
+}
+
+// Animates the message element based on the result of the player's answer
+function animateMessage(result) {
+    const messageElement = document.getElementById("message");
+    messageElement.classList.add("result");
+    setTimeout (() => {
+        messageElement.classList.remove(result);
+    }, 1000)
+}
+
+// Updates the score display based on the player's current score
+function updateScore() {
+    const scoreElement = document.getElementById("score");
+    scoreElement.innerText = score;
+}
+
+// Checks if the player has won the game and displays a congratulatory message if so
+function checkForWin() {
+    if (score >= 15) {
+        const messageElement = document.getElementById("message");
+        messageElement.innerText = "Congratulations! You are our winner!";
+        setTimeout(() => {
+            restartGame();
+        }, 3000)
+    }
+}
+
+// Updates the score display based on the player's current score
+function updateScore() {
+    const scoreElement = document.getElementById("score");
+    scoreElement.innerText = score;
+}
+
+// Restarts the game by resetting all game variables and clearing the DOM
+function restartGame() {
+    currentOperation = "";
+    currentQuestion = {};
+    score = 0;
+    resetProgressBar();
+    updateScore();
+    const questionElement = document.getElementById("question");
+    const optionsElement = document.getElementById("options");
+    const messageElement = document.getElementById("message");
+    questionElement.innerText = "";
+    optionsElement.innerHTML = "";
+    messageElement.innerText = "";
+}
+
+// Resets the progress bar by setting its width to 0%
+function resetProgressBar() {
+    const progressBar = document.getElementById("progress-bar");
+    progressBar.style.width ="0%"
+}

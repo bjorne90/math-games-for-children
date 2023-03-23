@@ -96,6 +96,7 @@ function checkAnswer(answer) {
       checkForWin();
       updateProgressBar();
       animateMessage("correct");
+      messageElement.classList.remove("incorrect");
     } else {
       const incorrectMessages = [
         "Oops! Give it another try.",

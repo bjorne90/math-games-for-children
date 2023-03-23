@@ -49,10 +49,15 @@ body {
 }
 
 h1 {
-    font-family: 'Bangers', cursive, sans-serif;
-    font-size: 36px;
-    margin-bottom: 20px;
-    margin-top: -15px;
+  font-family: 'Bangers', cursive;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Bangers', cursive;
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 .operation-buttons button {
@@ -120,7 +125,7 @@ h1 {
     color: #008000;
     min-height: 24px;
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .message.incorrect {

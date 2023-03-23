@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://bjorne90.github.io/math-games-for-children/index.html">
+  <a href="https://bjorne90.github.io/math-games-for-children/index.html" target="_blank">
     <img src="assets/images/logo.jpg" alt="Logo" width="250" height="100">
   </a>
 

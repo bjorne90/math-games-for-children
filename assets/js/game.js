@@ -74,3 +74,40 @@ function displayQuestion () {
         optionsElement.appendChild(button);
     }
 }
+
+// Checks if the provided answer is correct and displays a random message accordingly
+function checkAnswer (answer) {
+    const messageElement = document.getElementById("message");
+
+    if (answer === currentOperation.correctAnswer) {
+        const correctMessages = [
+            "Great job kid!",
+            "Awesome!",
+            "You got it!",
+            "Keep up the good work!",
+            "Well done, you learning!",
+        ];
+        const randomMessage =
+        correctMessages[Math.floor(Math.random() * correctMessages.length)];
+        messageElement.innerText = randomMessage;
+        score++;
+        updateScore();
+        checkForWin();
+        updateProgressBar();
+        animateMessage("correct");
+    } else {
+        const incorrectMessages = [
+        "Oops! Give it another try.",
+        "No worries! Keep practicing.",
+        "That's okay! Let's learn from it.",
+        "Don't worry! We'll get it next time.",
+        "Keep trying! You'll get it!",
+        ];
+        const randomMessage = 
+        incorrectMessages[Math.floor(Math.random() * incorrectMessages.length)];
+        messageElement.innerText = `${randomMessage} The correct answer is ${currentQuestion.correctAnswer}.`;
+        animateMessage("incorrect")
+    }
+
+    generateQuestion(currentOperation);
+}

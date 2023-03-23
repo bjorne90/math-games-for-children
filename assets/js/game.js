@@ -38,3 +38,4 @@ function generateQuestion() {
 
     displayQuestion();
 }
+

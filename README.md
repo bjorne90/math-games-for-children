@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://bjorne90.github.io/math-games-for-children/index.html">
-    <img src="media/logo.png" alt="Logo" width="250" height="100">
+    <img src="assets/images/logo.jpg" alt="Logo" width="250" height="100">
   </a>
 
   <h3 align="center">Project 2 - Fun Math game for Kids</h3>
@@ -19,7 +19,7 @@ A fun and interactive math game designed for children to learn and practice addi
 The game features a colorful design, engaging animations, and a intuitive interface that adapts to diffrent screen sizes,
 providing an enjoyable learning experience for kids.
 
-![Fun Math Game for Kids](https://link-to-screenshot-of-game.png)
+![Fun Math Game for Kids](assets/images/mockup.png)
 
 ## Features ✨
 - **Colorful and  fun graphics:** Bright colors, intresting animations, and engaging design to grab children's 
@@ -38,7 +38,7 @@ children.
 5. If the child answers incorrectly, the game provides feedback and the correct answer so they can learn from their mistake.
 6. As children progress through the game, the questions become progressively more challenging, helping them build their skills and confidence in math.
 
-![Fun Math Game Screenshot 2](https://link-to-another-screenshot-of-game.png)
+![Fun Math Game Screenshot 2](assets/images/howtoplay.png)
 
 ## Responsiveness 📱
 
@@ -70,7 +70,7 @@ The game is fully responsive and works well on different devices, such as phones
 * I have checked that the text is readable, that it is accessible to users.
 * I have tested the form several times that it really works as intended and that all fields must be filled in.
 
-![Lighthouse score of the website](https://link-to-another-screenshot-of-game.png)
+![Lighthouse score of the website](assets/images/lighthouse.png)
 
 ## Features Left to Implement 🖥️
 

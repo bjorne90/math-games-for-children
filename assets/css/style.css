@@ -36,3 +36,32 @@ body {
     margin: 10px;
 }
 
+.game-board {
+    background-color: #ADD8E6;
+    border-radius: 15px;
+    padding: 20px;
+    width: 650px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+    margin: 10px;
+}
+
+h1 {
+    font-family: 'Bangers', cursive, sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.operation-buttons button {
+    background-color: #FFD700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 18px;
+    transition: transform 0.2s;
+}
